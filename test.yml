@@ -1,0 +1,11 @@
+---
+- hosts: all
+  roles:
+
+  # gui
+  ## text editors
+  # - role: cask_package
+  #   package_name: atom
+
+  - role: atom_package
+    package_name: language-puppet

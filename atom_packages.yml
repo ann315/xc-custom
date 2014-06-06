@@ -1,0 +1,39 @@
+### atom plugins
+---
+- hosts: all
+  roles:
+
+  # basic editor working stuff
+  - role: atom_package
+    package_name: Sublime-Style-Column-Selection
+  - role: atom_package
+    package_name: atom-lint
+  - role: atom_package
+    package_name: open-in-browser
+  - role: atom_package
+    package_name: sort-lines
+  - role: atom_package
+    package_name: color-picker
+  # autocompletion
+  - role: atom_package
+    package_name: autocomplete-plus
+  - role: atom_package
+    package_name: autocomplete-snippets
+  - role: atom_package
+    package_name: autocomplete-paths
+  # git
+  - role: atom_package
+    package_name: atomatigit
+  - role: atom_package
+    package_name: gist-it
+  # ruby
+  - role: atom_package
+    package_name: ruby-bundler
+  - role: atom_package
+    package_name: ruby-string-interpolation
+  - role: atom_package
+    package_name: language-haml
+  - role: atom_package
+    package_name: language-jade
+  - role: atom_package
+    package_name: language-swift

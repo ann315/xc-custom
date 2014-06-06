@@ -138,3 +138,6 @@
     package_name: vlc
   - role: cask_package
     package_name: iterm2
+
+# Atom packages
+- include: atom_packages.yml

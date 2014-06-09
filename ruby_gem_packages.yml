@@ -1,0 +1,19 @@
+### ruby gems
+---
+- hosts: all
+  roles:
+  - role: rbenv_gem_package
+    package_name: bundler
+  - role: rbenv_gem_package
+    package_name: rails
+  - role: rbenv_gem_package
+    package_name: coffee-rails
+  - role: rbenv_gem_package
+    package_name: haml-rails
+  - role: rbenv_gem_package
+    package_name: powder
+  # Linters for atom
+  - role: rbenv_gem_package
+    package_name: rubocop
+  - role: rbenv_gem_package
+    package_name: scss-lint

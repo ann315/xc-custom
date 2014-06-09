@@ -1,0 +1,30 @@
+### Node npm packages
+---
+- hosts: all
+  roles:
+  # Node packages
+  - role: npm_package
+    package_name: grunt
+  - role: npm_package
+    package_name: bower
+  - role: npm_package
+    package_name: yo
+  # - role: npm_package
+  #   package_name: ember-cli
+  - role: npm_package
+    package_name: coffee-script
+  - role: npm_package
+    package_name: katon
+  - role: npm_package
+    package_name: harp
+  - role: npm_package
+    package_name: sails
+  - role: npm_package
+    package_name: geddy
+  # Linters for atom
+  - role: npm_package
+    package_name: coffeelint
+  - role: npm_package
+    package_name: jshint
+  - role: npm_package
+    package_name: csslint
